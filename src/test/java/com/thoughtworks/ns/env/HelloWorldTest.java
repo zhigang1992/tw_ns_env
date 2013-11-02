@@ -7,7 +7,10 @@ import static org.junit.Assert.assertThat;
 
 public class HelloWorldTest {
     @Test
-    public void testSum() throws Exception {
+    public void testSum() {
         assertThat(3, is(HelloWorld.sum(1, 2)));
     }
+//    public void testAnotherSum() throws Exception {
+//        assertThat(4, is(HelloWorld.sum(2, 2)));
+//    }
 }
